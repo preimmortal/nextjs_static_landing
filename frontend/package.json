@@ -28,7 +28,7 @@
     "i": "^0.3.6",
     "jest-haste-map": "^24.5.0",
     "jest-resolve": "^24.5.0",
-    "next": "^7.0.0",
+    "next": "^9.5.3",
     "node-sass": "^4.9.3",
     "npm": "^6.9.0",
     "postcss-easy-import": "^3.0.0",
