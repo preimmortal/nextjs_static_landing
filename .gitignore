@@ -1,4 +1,7 @@
+.yarnclean
+yarn.lock
 node_modules
 .next
 .vscode
 package-lock.json
+out

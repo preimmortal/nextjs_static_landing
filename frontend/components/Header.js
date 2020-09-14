@@ -1,18 +1,22 @@
 /* eslint-disable no-unused-vars */
 import PropTypes from 'prop-types';
-import FontAwesomeIcon from '@fortawesome/react-fontawesome';
-import faSun from '@fortawesome/fontawesome-free-regular/faSun';
+import {library} from '@fortawesome/fontawesome-svg-core';
+import {FontAwesomeIcon} from '@fortawesome/react-fontawesome';
+import {faBurn} from '@fortawesome/free-solid-svg-icons';
+
+library.add(faBurn);
 
 const Header = (props) => (
   <header id="header" style={props.timeout ? {display: 'none'} : {}}>
     <div className="logo">
       {/* <span className="icon fa-diamond"></span>*/}
-      <FontAwesomeIcon icon={faSun} transform="grow-18" />
+      <FontAwesomeIcon icon={faBurn} transform="grow-40" />
     </div>
     <div className="content">
       <div className="inner">
         <h1>David lau</h1>
-        <p>My First Next JS Website</p>
+        <p>Senior Software Engineer</p>
+        <p>arm</p>
       </div>
     </div>
     <nav>

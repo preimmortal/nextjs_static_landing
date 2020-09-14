@@ -1,0 +1,9 @@
+version: '3'
+services:
+    app:
+        image: preimmortal/davidlautech_be
+        environment:
+            - APP_PORT=:3001
+            - APP_DB_NAME="test.db"
+        ports:
+            - 3001:3001
